@@ -1,5 +1,4 @@
 ## Image Generation
-This gives the code for generating the UOUC dataset.
 
 __Step 1:__
 
