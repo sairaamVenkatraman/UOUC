@@ -6,7 +6,7 @@ __Step 1:__
 > python `Download.py`. 
 
 This downloads the objects into `Data/objects`. 
-_The data is made available by Miguel Zavala, with permission to use his models for the dataset._
+_The data is made available by Miguel Zavala, with permission to use the 3D models (STL files) for the dataset._
 
 __Step 2:__
 
