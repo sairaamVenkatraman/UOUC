@@ -1,7 +1,12 @@
+## Image Generation
 This gives the code for generating the UOUC dataset.
 
-To generate, first run Download.py. This downloads the objects into Data/objects. The data is from thw works of Miguel Zavala. He was gracious enough to give us permission to use his models for the dataset.
+__Step 1:__
+> run `Download.py`. 
+This downloads the objects into `Data/objects`. 
+The data is from the works of Miguel Zavala who was gracious enough to give us permission to use his models for the dataset.
 
+__Step 2:__
 Then for each group of train (you will have to update SceneGenerator-conf.json in Scene to generate each group), run SceneGenerator_train.py in Scene.
 
 This generates scene templates for each scene.
