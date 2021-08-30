@@ -19,3 +19,9 @@ Use a gpu by specifying CUDA_VISIBLE_DEVICES while running SetObject-Scene.py. S
 Thus, we can generate scenes for a group of scenes. 
 
 Then run bounds.py in Data/, which adds a bounding box to each object and to scenes. Please set the path to the objects and scene templates in bounds for getting the bounding boxes in the templates.
+
+To generate questions and answers, please run QGenerator.py in qanda/QA.
+
+The code generates one question per type for each scene. Please set the variables to choose the group or test set for generating questions and answers.
+
+Do this for each group and test set to get the questions and answers for each set.
