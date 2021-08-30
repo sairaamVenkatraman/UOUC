@@ -1,0 +1,20 @@
+{
+    "render-args":{
+        "apppath": "../../packages/blender-2.91.2-linux64",
+        "savepath": "../Data/Third_test/",
+        "basescene": "/content/base-blend/base-scene-light.blend"
+    },
+    
+    "script-args":{
+        "scriptpath": "./SetObject-Scene.py",
+        "scenes": "../Data/Templates/First_test/",
+        "range": {"0":[0,3333],"1":[3333,6666],"2":[6666,9999],"3":[9999,13332],
+                  "4":[13332,16665],"5":[16665,19998],"6":[19998,23331],
+                  "7":[23331,26664],"8":[26664,30000]} 
+    },
+
+    "data" : {
+        "fileglobalpath": "../Data/objects",
+        "metaglobalpath" : "../Data/objects"
+    }
+}
