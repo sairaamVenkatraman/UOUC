@@ -18,4 +18,4 @@ Use a gpu by specifying CUDA_VISIBLE_DEVICES while running SetObject-Scene.py. S
 
 Thus, we can generate scenes for a group of scenes. 
 
-Then run bounds.py, which adds a bounding box to each object and to scenes.
+Then run bounds.py in Data/, which adds a bounding box to each object and to scenes. Please set the path to the objects and scene templates in bounds for getting the bounding boxes in the templates.
