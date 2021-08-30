@@ -2,31 +2,42 @@
 This gives the code for generating the UOUC dataset.
 
 __Step 1:__
-> run `Download.py`. 
+
+> python `Download.py`. 
+
 This downloads the objects into `Data/objects`. 
-The data is from the works of Miguel Zavala who was gracious enough to give us permission to use his models for the dataset.
+_The data is made available by Miguel Zavala, with permission to use his models for the dataset._
 
 __Step 2:__
-Then for each group of train (you will have to update SceneGenerator-conf.json in Scene to generate each group), run SceneGenerator_train.py in Scene.
 
-This generates scene templates for each scene.
+Set group information [partitioning class id's] in `groups.json`. Update the path information and group information in `SceneGenerator-conf.py` to generate group with
+> python SceneGenerator_train.py
 
-Then, for every test set, (run SceneGenerator_test_1.py to generate scene templates for first_test) to generate scene template.
+This generates scene templates for each scene. Similarly, for test-set `SceneGenerator_test_X.py` is made available.
 
-After the scenes are generated, update SetObj-conf.json for scenes and save_path to set the scene template path and where to save the rendered files.
 
-The rendering needs blender. We used blender 2.91.
+__Step 3:__
 
-We used 3 gpus to generate the scenes. We distributed the data across them, by setting star and end in SetObject-Scene.py to one of the values of the range in SetObj-conf.json.
+Update SetObj-conf.json for scenes and save_path to set the scene template path and where to save the rendered files. The rendering needs blender. We used blender 2.91.
+We used 3 gpus to generate the scenes. Data ditribution can be done, by setting star and end in `SetObject-Scene.py` to one of the values of the range in `SetObj-conf.json.`
+> CUDA_VISIBLE_DEVICES=X
+> 
+> python SetObject-Scene.py
 
-Use a gpu by specifying CUDA_VISIBLE_DEVICES while running SetObject-Scene.py. Set the same gpu inside the code.
+GPU device id is set in the `SetObject-Scene.py` as well
 
-Thus, we can generate scenes for a group of scenes. 
 
-Then run bounds.py in Data/, which adds a bounding box to each object and to scenes. Please set the path to the objects and scene templates in bounds for getting the bounding boxes in the templates.
+## Bounding Box generation
 
-To generate questions and answers, please run QGenerator.py in qanda/QA.
+__Step 4: (Optional)__
 
-The code generates one question per type for each scene. Please set the variables to choose the group or test set for generating questions and answers.
+To generate bounding boxes for each scene set the path variables in `bounds.py`. The code can the be run.
+> python bounds.py
 
-Do this for each group and test set to get the questions and answers for each set.
+
+## Question and Answer generation
+
+__Step 5:__
+
+The code generates one question per type for each scene. Set the variables in `qanda/QA/QGenerator.py` to choose the group or test set for generating questions and answers. 
+> python QGenerator.py
