@@ -1,0 +1,35 @@
+{
+    "0":{
+        "A0":{
+            "ADV":["class"],
+            "DRG":["category"],
+            "MON":[""],
+            "ANM":[""],
+            "MYT":[""]
+        },
+        "A2":{
+            "ADV":["species"],
+            "DRG":["name"],
+            "MON":["name"],
+            "ANM":["name"],
+            "MYT":["name"]
+        },
+        "A1":{
+            "ADV":["color"],
+            "DRG":["color"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+
+    
+    "text":{
+        "0":"Are there greater number of entities </R> of </O0:A1> </O0:A2> </O0:A0> than the other side?"
+    },
+    
+    "sampling":[1],
+    
+    "meta":{}
+}
+

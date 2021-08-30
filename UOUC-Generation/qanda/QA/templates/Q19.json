@@ -1,0 +1,26 @@
+{
+    "0":{
+        "A0":{
+            "ADV":["class"],
+            "DRG":[""],
+            "MON":[""],
+            "ANM":[""],
+            "MYT":[""]
+        },
+        "A1":{
+            "ADV":["species"],
+            "DRG":["name"],
+            "MON":["name"],
+            "ANM":["name"],
+            "MYT":["name"]
+        }
+    },
+    
+    "text":{"0":"Will </O0:A1> </O0:A0> attack </O1:A1> </O1:A0>?"},
+    
+    "sampling":[1],
+    
+    "meta":{}
+    
+}
+

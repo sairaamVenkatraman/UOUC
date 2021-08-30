@@ -1,0 +1,89 @@
+{
+    "0":{
+        "A0":{
+            "ADV":["color", "gender"],
+            "DRG":["color"],
+            "MON":["color", "type"],
+            "ANM":["color", "type"],
+            "MYT":["color", "type"]
+        },
+         "A3":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A2":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+    "1":{
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A1":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        },
+         "A3":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A2":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+    "2":{
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["category"],
+            "MON":[""],
+            "ANM":["food-habit"],
+            "MYT":[""]
+        },
+        "A3":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A2":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+    
+    "text":{
+        "0":"Upon removal of </O0:A2> </O0:A3> how many entities are </O1:A0>?",
+        "1":"Upon removal of </O0:A2> </O0:A3> how many </O1:A1> </O1:A0> are present?",
+        "2":"Upon removal of </O0:A2> </O0:A3> how many </O1:A0> are present?"
+    },
+    
+    "sampling":[9, 5, 9],
+    
+    "meta":{}
+}
+

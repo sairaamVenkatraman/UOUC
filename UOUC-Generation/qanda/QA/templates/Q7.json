@@ -1,0 +1,35 @@
+{
+    "0":{
+        "None":"None"
+    },
+    "1":{
+        "A0":{
+            "ADV":["species", "class", "gender"],
+            "DRG":["category"],
+            "MON":["type"],
+            "ANM":["category", "type", "food-habit"],
+            "MYT":["type", "gender"]
+        }
+    },
+    "2":{
+        "A0":{
+            "ADV":["species", "class", "gender"],
+            "DRG":["category"],
+            "MON":["type"],
+            "ANM":["category", "type", "food-habit"],
+            "MYT":["type", "gender"]
+        }
+    },
+
+    
+    "text":{
+        "0":"Are there greater, equal or lesser number of </O0:I0> entities than </O1:I0> entites?",
+        "1":"Are there greater, equal or lesser number of </O0:I0> entities than </O1:A0>?",
+        "2":"Are there greater, equal or lesser number of </O0:A0>s than </O1:A0>s?"
+    },
+    
+    "sampling":[1, 11, 19],
+    
+    "meta":{}
+}
+

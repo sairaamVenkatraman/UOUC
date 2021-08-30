@@ -1,0 +1,35 @@
+{
+    "0":{
+        "I0":{
+            "ADV":["category", "team"],
+            "DRG":["category", "team"],
+            "MON":["category", "team"],
+            "ANM":["category", "team"],
+            "MYT":["category", "team"]
+        }, 
+        "A0":{
+            "ADV":["class"],
+            "DRG":["name"],
+            "MON":["name"],
+            "ANM":["name"],
+            "MYT":["name"]
+        },
+        "A1":{
+            "ADV":["species"],
+            "DRG":[""],
+            "MON":[""],
+            "ANM":[""],
+            "MYT":[""]
+        }
+    },
+
+    
+    "text":{
+        "0":"Do </O0:A1> </O0:A0> and </O1:A1> </O1:A0> belong to same </O0:I0>?"
+    },
+    
+    "sampling":[1],
+    
+    "meta":{}
+}
+

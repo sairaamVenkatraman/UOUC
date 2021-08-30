@@ -1,0 +1,50 @@
+1. Attribute queries:
+    (MV) What is the </O0:I0> of the </O0:A1> </O0:A0>?
+
+
+2. Attribute queries (relational):
+    (MV) What is the </O0:I0> of the </O0:A0> that is </R> of the </O1:A0>?
+
+
+3. Counting (attribute):
+    (N) How many entities are </O0:A0>?
+
+
+4. Counting (relational): 
+    (N) How many entites are </R> of </O0:A1> </O0:A2> </O0:A0>?
+
+    
+5. Comparison (attribute):
+    (BY) Are there greater number of </O0:I0> entities than </O1:I0> entites?
+    
+
+8. Integer Comparison (relational):
+    (BY) Are there greater number of entites </R> of </O0:A1> </O0:A2> </O0:A0> than the other side?
+    
+
+9. Relational queries:
+    (BY) Is </O0:A1> </O0:A0> </R> of </O1:A1> </O1:A0>?
+
+
+10. Transitive (attribute):
+    What is the </O0:I0> of </O0:A1> </O0:A0>?
+    
+
+11. Transitive:
+    Do </O0:A1> </O0:A0> and </O1:A1> </O1:A0> belong to same </O0:I0>?
+    
+
+12. Background (attributes):
+    How many grids are empty/occupied?
+
+
+13. Upon removing an object Counting (attribute)
+    
+
+14. Upon removing an object Existence (attribute)
+
+
+16. Upon interchange in positions of objects Counting (relational)
+    
+    
+17. Upon interchange in positions of objects Relational queries

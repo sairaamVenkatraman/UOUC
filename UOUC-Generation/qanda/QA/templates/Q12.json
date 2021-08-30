@@ -1,0 +1,21 @@
+{
+    "0":{
+        "I0":{
+            "ADV":["empty", "occupied"],
+            "DRG":["empty", "occupied"],
+            "MON":["empty", "occupied"],
+            "ANM":["empty", "occupied"],
+            "MYT":["empty", "occupied"]
+        }
+    },
+
+    
+    "text":{
+        "0":"How many grids are </O0:I0>?"
+    },
+    
+    "sampling":[1],
+    
+    "meta":{}
+}
+

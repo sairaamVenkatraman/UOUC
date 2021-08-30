@@ -1,0 +1,32 @@
+{
+    "0":{
+        "I0":{
+            "ADV":["color", "species", "class", "gender", "weapon", "mount"],
+            "DRG":["color", "pose", "name"],
+            "MON":["color", "name", "type"],
+            "ANM":["color", "type", "name", "food-habit", "prey-level", "predation-level"],
+            "MYT":["color", "type", "gender"]
+        },
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A1":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+    
+    "text":{"0":"What is the </O0:I0> of the </O0:A1> </O0:A0>?"},
+    
+    "sampling":[1],
+    
+    "meta":{}
+}
+

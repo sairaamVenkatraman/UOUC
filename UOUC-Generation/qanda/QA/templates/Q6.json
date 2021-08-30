@@ -1,0 +1,35 @@
+{
+    "0":{
+        "A0":{
+            "ADV":["class"],
+            "DRG":["category"],
+            "MON":["name"],
+            "ANM":["name"],
+            "MYT":["name"]
+        },
+        "A2":{
+            "ADV":["species"],
+            "DRG":["name"],
+            "MON":[""],
+            "ANM":[""],
+            "MYT":[""]
+        },
+        "A1":{
+            "ADV":["color"],
+            "DRG":["color"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+
+    
+    "text":{
+        "0":"How many entities are </R> of the </O0:A1> </O0:A2> </O0:A0>?"
+    },
+    
+    "sampling": [1],
+    
+    "meta":{}
+}
+

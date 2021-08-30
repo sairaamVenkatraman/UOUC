@@ -1,0 +1,73 @@
+id,name,type,gender,category,team
+MYT00100,deva-male,angel,male,mythical-being,A
+MYT00200,female-deva,angel,female,mythical-being,C
+MYT00101,deva,angel,male,mythical-being,A
+MYT00400,angel-of-knowledge,angel,male,mythical-being,A
+MYT00600,fujin,god,male,mythical-being,A
+MYT00700,raijin,god,male,mythical-being,C
+MYT00800,azer,elemental,male,mythical-being,B
+MYT00900,celestial-king,angel,male,mythical-being,B
+MYT01000,erinyes,devil,male,mythical-being,C
+MYT01100,erinyes,devil,male,mythical-being,A
+MYT01200,erinyes,devil,male,mythical-being,A
+MYT01300,planetar,angel,male,mythical-being,A
+MYT01400,air-elemental,elemental,no-gender,mythical-being,B
+MYT01500,earth-elemental,elemental,no-gender,mythical-being,B
+MYT01600,fire-elemental,elemental,no-gender,mythical-being,A
+MYT01501,earth-elemental,elemental,no-gender,mythical-being,B
+MYT01900,water-elemental,elemental,no-gender,mythical-being,C
+MYT02100,ice-elemental,elemental ,no-gender,mythical-being,A
+MYT02300,cloud-giant,giant,male,mythical-being,C
+MYT02400,cloud-giant-female,giant,female,mythical-being,B
+MYT02500,fire-giant,giant,male,mythical-being,A
+MYT02600,fire-giant-female,giant,female,mythical-being,C
+MYT02700,frostgiant,giant,male,mythical-being,A
+MYT02701,frostgiant,giant,male,mythical-being,B
+MYT02900,frost-giant,giant,male,mythical-being,A
+MYT02901,frost-giant,giant,male,mythical-being,A
+MYT03000,frost-giant-snowmancer,giant,male,mythical-being,C
+MYT03100,frost-giant-female,giant,female,mythical-being,B
+MYT03200,hill-giant,giant,male,mythical-being,A
+MYT03300,hill-giant-female,giant,female,mythical-being,C
+MYT03400,stone-giant,giant,male,mythical-being,A
+MYT03500,stone-giant-female,giant,female,mythical-being,C
+MYT03600,storm-giant,giant,male,mythical-being,A
+MYT03700,storm-giant-female,giant,female,mythical-being,C
+MYT03800,grave-titan-with-tomestone-armor,giant,male,mythical-being,A
+MYT03900,wood-colossus,giant,no-gender,mythical-being,C
+MYT04000,air ship,golem ,no-gender,mythical-being,A
+MYT04100,beer-barrel,golem ,male,mythical-being,B
+MYT04200,bone-golem,golem ,male,mythical-being,B
+MYT04300,clay-golem,golem ,male,mythical-being,A
+MYT04400,copper-golem,golem ,male,mythical-being,A
+MYT04500,flesh-golem,golem ,male,mythical-being,C
+MYT04600,iron-golem,golem ,male,mythical-being,A
+MYT04700,keg-golem,golem ,male,mythical-being,B
+MYT04800,marshmallow-golem,golem ,male,mythical-being,C
+MYT04900,stone-golem,golem ,male,mythical-being,C
+MYT05000,wood-golem,golem ,male,mythical-being,B
+MYT05100,merman,merfolk,male,mythical-being,C
+MYT05200,centaur-female-fighter,centaur,female,mythical-being,A
+MYT05201,centaur-female,centaur,female,mythical-being,C
+MYT05400,centaur-male,centaur,male,mythical-being,C
+MYT05500,cameltaur-fighter,cameltaur,male,mythical-being,A
+MYT05600,liontaur,liontaur,male,mythical-being,A
+MYT05700,lamia,monster,female,mythical-being,A
+MYT05800,minotaur-fighter-on-buffalo,monster,male,mythical-being,B
+MYT05900,skeleton-minotaur,monster,male,mythical-being,C
+MYT06000,female-minotaur,monster,female,mythical-being,B
+MYT06100,six-armed-cyclops,monster,male,mythical-being,C
+MYT06200,cyclops,monster,male,mythical-being,C
+MYT06300,cyclops,monster,male,mythical-being,B
+MYT06400,churly-the-orc-stooge,orc,male,mythical-being,A
+MYT06500,garry-the-orc-stooge,orc,male,mythical-being,A
+MYT06600,morc-the-orc-stooge,orc,male,mythical-being,C
+MYT06700,vampire-lord,vampire,male,mythical-being,C
+MYT06800,vampire-spawn,vampire,male,mythical-being,C
+MYT06900,balor,demon,male,mythical-being,A
+MYT07000,chernovog,demon,male,mythical-being,A
+MYT07100,harpy,monster,female,mythical-being,A
+MYT07200,homunculus,construct,no-gender,mythical-being,B
+MYT07300,imp,devil,male,mythical-being,A
+MYT07400,maralith,demon,female,mythical-being,A
+MYT07500,medusa,monster,female,mythical-being,A

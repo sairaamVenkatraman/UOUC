@@ -1,0 +1,91 @@
+{
+    "0":{
+        "I0":{
+            "ADV":["color", "gender", "weapon", "mount"],
+            "DRG":["color", "pose", "name"],
+            "MON":["color", "name"],
+            "ANM":["color", "name", "food-habit"],
+            "MYT":["color", "gender"]
+        },
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        }
+    },
+    "1":{
+        "I0":{
+            "ADV":["species", "class"],
+            "DRG":["color"],
+            "MON":["type"],
+            "ANM":["type", "prey-level", "predation-level"],
+            "MYT":["type"]
+        },
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        }
+    },
+    "2":{
+        "I0":{
+            "ADV":["color", "gender", "weapon", "mount"],
+            "DRG":["color", "pose", "name"],
+            "MON":["color", "name"],
+            "ANM":["color", "name", "food-habit"],
+            "MYT":["color", "gender"]
+        },
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A1":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+    "3":{
+        "I0":{
+            "ADV":["species", "class"],
+            "DRG":["color"],
+            "MON":["type"],
+            "ANM":["type", "prey-level", "predation-level"],
+            "MYT":["type"]
+        },
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A1":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+    
+    "text":{"0":"What is the </O0:I0> of the </O0:A0> that is </R> </O1:A0>?",
+            "1":"What </O0:I0> is the </O0:A0> that is </R> </O1:A0>?",
+            "2":"What is the </O0:I0> of the </O0:A0> that is </R> </O1:A1> </O1:A0>?",
+            "3":"What </O0:I0> is the </O0:A0> that is </R> </O1:A1> </O1:A0>?"},
+    
+    "sampling":[11, 11, 19, 19],
+    
+    "meta":{}
+    
+}
+

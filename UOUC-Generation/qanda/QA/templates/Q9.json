@@ -1,0 +1,28 @@
+{
+    "0":{
+        "A0":{
+            "ADV":["species", "class"],
+            "DRG":["name", "category"],
+            "MON":["name", "type"],
+            "ANM":["name", "type", "food-habit"],
+            "MYT":["name", "type"]
+        },
+        "A1":{
+            "ADV":["color", "species", "gender"],
+            "DRG":["color", "name"],
+            "MON":["color"],
+            "ANM":["color"],
+            "MYT":["color"]
+        }
+    },
+
+    
+    "text":{
+        "0":"Is </O0:A1> </O0:A0> </R> of the </O1:A1> </O1:A0>?"
+    },
+    
+    "sampling":[1],
+    
+    "meta":{}
+}
+
